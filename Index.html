@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Event Planner</title>
+    <link rel="stylesheet" href="index.css" />
+
+  </head>
+
+<body>
+
+    <h1><a href="#">Event Planner</a></h1>
+    <div>
+      <section id="events">
+        <h2>Upcoming Events</h2>
+        <section id="cards-container"></section>
+      </section>
+
+      <section id="create-event">
+        <h2>Create Event</h2>
+        <form id="event-form">
+          <input type="text" id="name" placeholder="Event Name" required>
+          <input type="date" id="date" required>
+          <input type="time" id="time" required>
+          <input type="text" id="location" placeholder="Location" required>
+          <textarea id="description" placeholder="Description" required></textarea>
+          <button type="submit">Add Event</button>
+        </form>
+
+    </div>
+    <script defer src="Index.js"></script>
+  </body>
+
+ </html>
